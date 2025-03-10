@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1u-O7olItpu4RoLwj5VomktYKwhiXLvfh
 """
 
-pip install streamlit pandas numpy scikit-learn matplotlib seaborn plotly
+!pip install streamlit pandas numpy scikit-learn matplotlib seaborn plotly
 
 import os
 import time
