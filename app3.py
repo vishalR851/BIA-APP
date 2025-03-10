@@ -88,7 +88,7 @@ elif page == "ML Training":
     if "df" in st.session_state:
         df = st.session_state.df
         st.header("🤖 Machine Learning Model Training")
-,
+
         # Target Selection
         target = st.selectbox("🎯 Select Target Variable", df.columns)
         features = [col for col in df.columns if col != target]
